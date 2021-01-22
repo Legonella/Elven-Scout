@@ -1,4 +1,4 @@
-export class Screen {
+export class Scene {
     constructor(game) {
         this.game = game;
 	 }
@@ -7,6 +7,6 @@ export class Screen {
 		this.isActive = true;
 	}
 	render(time) {
-		
+
 	}
 }

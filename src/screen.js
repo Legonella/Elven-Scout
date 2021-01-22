@@ -17,4 +17,8 @@ export class Screen {
         document.body.appendChild(canvas);
         return canvas;
     }
+    fill(color) {
+        this.context.fillStyle = color;
+        this.context.fillRect(0, 0, this.width, this.height);
+    }
 }
