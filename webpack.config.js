@@ -7,8 +7,10 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: 'js/elven-scout.js',
     },
-    context: __dirname,
-    entry: './dist/js/elven-scout.js',
+    devServer: {
+        contentBase: './dist',
+    },
+    devtool: 'inline-source-map',
     module: {
         rules: [
             {

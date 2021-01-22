@@ -4,7 +4,9 @@
     "description": "Minigame",
     "main": "index.js",
     "scripts": {
-        "dist": "webpack-dev-server"
+        "dist": "webpack",
+        "start": "webpack serve --open",
+        "watch": "webpack -w"
     },
     "repository": {
         "type": "git",
